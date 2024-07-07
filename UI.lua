@@ -186,7 +186,7 @@ function lib:Window(text, preset, closebind)
         NotificationHold.BorderSizePixel = 0
         NotificationHold.Size = UDim2.new(0, 560, 0, 319)
         NotificationHold.AutoButtonColor = false
-        NotificationHold.Font = Enum.Font.SourceSans
+        NotificationHold.Font = Enum.Font.Jura
         NotificationHold.Text = ""
         NotificationHold.TextColor3 = Color3.fromRGB(0, 0, 0)
         NotificationHold.TextSize = 14.000
@@ -214,7 +214,7 @@ function lib:Window(text, preset, closebind)
         OkayBtn.Position = UDim2.new(0.0609756112, 0, 0.720207274, 0)
         OkayBtn.Size = UDim2.new(0, 144, 0, 42)
         OkayBtn.AutoButtonColor = false
-        OkayBtn.Font = Enum.Font.SourceSans
+        OkayBtn.Font = Enum.Font.Jura
         OkayBtn.Text = ""
         OkayBtn.TextColor3 = Color3.fromRGB(0, 0, 0)
         OkayBtn.TextSize = 14.000
@@ -229,7 +229,7 @@ function lib:Window(text, preset, closebind)
         OkayBtnTitle.BackgroundTransparency = 1.000
         OkayBtnTitle.Position = UDim2.new(0.0763888881, 0, 0, 0)
         OkayBtnTitle.Size = UDim2.new(0, 181, 0, 42)
-        OkayBtnTitle.Font = Enum.Font.Gotham
+        OkayBtnTitle.Font = Enum.Font.Jura
         OkayBtnTitle.Text = textbtn
         OkayBtnTitle.TextColor3 = Color3.fromRGB(255, 255, 255)
         OkayBtnTitle.TextSize = 14.000
@@ -241,7 +241,7 @@ function lib:Window(text, preset, closebind)
         NotificationTitle.BackgroundTransparency = 1.000
         NotificationTitle.Position = UDim2.new(0.0670731738, 0, 0.0829015523, 0)
         NotificationTitle.Size = UDim2.new(0, 143, 0, 26)
-        NotificationTitle.Font = Enum.Font.Gotham
+        NotificationTitle.Font = Enum.Font.Jura
         NotificationTitle.Text = texttitle
         NotificationTitle.TextColor3 = Color3.fromRGB(255, 255, 255)
         NotificationTitle.TextSize = 18.000
@@ -253,7 +253,7 @@ function lib:Window(text, preset, closebind)
         NotificationDesc.BackgroundTransparency = 1.000
         NotificationDesc.Position = UDim2.new(0.0670000017, 0, 0.218999997, 0)
         NotificationDesc.Size = UDim2.new(0, 143, 0, 91)
-        NotificationDesc.Font = Enum.Font.Gotham
+        NotificationDesc.Font = Enum.Font.Jura
         NotificationDesc.Text = textdesc
         NotificationDesc.TextColor3 = Color3.fromRGB(255, 255, 255)
         NotificationDesc.TextSize = 15.000
@@ -305,7 +305,7 @@ function lib:Window(text, preset, closebind)
         TabBtn.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
         TabBtn.BackgroundTransparency = 1.000
         TabBtn.Size = UDim2.new(0, 107, 0, 21)
-        TabBtn.Font = Enum.Font.SourceSans
+        TabBtn.Font = Enum.Font.Jura
         TabBtn.Text = ""
         TabBtn.TextColor3 = Color3.fromRGB(0, 0, 0)
         TabBtn.TextSize = 14.000
@@ -315,7 +315,7 @@ function lib:Window(text, preset, closebind)
         TabTitle.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
         TabTitle.BackgroundTransparency = 1.000
         TabTitle.Size = UDim2.new(0, 107, 0, 21)
-        TabTitle.Font = Enum.Font.Gotham
+        TabTitle.Font = Enum.Font.Jura
         TabTitle.Text = text
         TabTitle.TextColor3 = Color3.fromRGB(150, 150, 150)
         TabTitle.TextSize = 14.000
@@ -402,7 +402,7 @@ function lib:Window(text, preset, closebind)
             Button.BackgroundColor3 = Color3.fromRGB(34, 34, 34)
             Button.Size = UDim2.new(0, 363, 0, 42)
             Button.AutoButtonColor = false
-            Button.Font = Enum.Font.SourceSans
+            Button.Font = Enum.Font.Jura
             Button.Text = ""
             Button.TextColor3 = Color3.fromRGB(0, 0, 0)
             Button.TextSize = 14.000
@@ -482,7 +482,7 @@ function lib:Window(text, preset, closebind)
             ToggleTitle.BackgroundTransparency = 1.000
             ToggleTitle.Position = UDim2.new(0.0358126722, 0, 0, 0)
             ToggleTitle.Size = UDim2.new(0, 187, 0, 42)
-            ToggleTitle.Font = Enum.Font.Gotham
+            ToggleTitle.Font = Enum.Font.Jura
             ToggleTitle.Text = text
             ToggleTitle.TextColor3 = Color3.fromRGB(255, 255, 255)
             ToggleTitle.TextSize = 14.000
@@ -643,7 +643,7 @@ function lib:Window(text, preset, closebind)
             Slider.Position = UDim2.new(-0.48035714, 0, -0.570532918, 0)
             Slider.Size = UDim2.new(0, 363, 0, 60)
             Slider.AutoButtonColor = false
-            Slider.Font = Enum.Font.SourceSans
+            Slider.Font = Enum.Font.Jura
             Slider.Text = ""
             Slider.TextColor3 = Color3.fromRGB(0, 0, 0)
             Slider.TextSize = 14.000
@@ -658,7 +658,7 @@ function lib:Window(text, preset, closebind)
             SliderTitle.BackgroundTransparency = 1.000
             SliderTitle.Position = UDim2.new(0.0358126722, 0, 0, 0)
             SliderTitle.Size = UDim2.new(0, 187, 0, 42)
-            SliderTitle.Font = Enum.Font.Gotham
+            SliderTitle.Font = Enum.Font.Jura
             SliderTitle.Text = text
             SliderTitle.TextColor3 = Color3.fromRGB(255, 255, 255)
             SliderTitle.TextSize = 14.000
@@ -780,7 +780,7 @@ function lib:Window(text, preset, closebind)
             DropdownBtn.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
             DropdownBtn.BackgroundTransparency = 1.000
             DropdownBtn.Size = UDim2.new(0, 363, 0, 42)
-            DropdownBtn.Font = Enum.Font.SourceSans
+            DropdownBtn.Font = Enum.Font.Jura
             DropdownBtn.Text = ""
             DropdownBtn.TextColor3 = Color3.fromRGB(0, 0, 0)
             DropdownBtn.TextSize = 14.000
@@ -858,7 +858,7 @@ function lib:Window(text, preset, closebind)
                 Item.ClipsDescendants = true
                 Item.Size = UDim2.new(0, 335, 0, 25)
                 Item.AutoButtonColor = false
-                Item.Font = Enum.Font.Gotham
+                Item.Font = Enum.Font.Jura
                 Item.Text = v
                 Item.TextColor3 = Color3.fromRGB(255, 255, 255)
                 Item.TextSize = 15.000
@@ -959,7 +959,7 @@ function lib:Window(text, preset, closebind)
             ColorpickerTitle.BackgroundTransparency = 1.000
             ColorpickerTitle.Position = UDim2.new(0.0358126722, 0, 0, 0)
             ColorpickerTitle.Size = UDim2.new(0, 187, 0, 42)
-            ColorpickerTitle.Font = Enum.Font.Gotham
+            ColorpickerTitle.Font = Enum.Font.Jura
             ColorpickerTitle.Text = text
             ColorpickerTitle.TextColor3 = Color3.fromRGB(255, 255, 255)
             ColorpickerTitle.TextSize = 14.000
@@ -981,7 +981,7 @@ function lib:Window(text, preset, closebind)
             ConfirmBtn.Position = UDim2.new(1.25814295, 0, 1.09037197, 0)
             ConfirmBtn.Size = UDim2.new(0, 105, 0, 32)
             ConfirmBtn.AutoButtonColor = false
-            ConfirmBtn.Font = Enum.Font.SourceSans
+            ConfirmBtn.Font = Enum.Font.Jura
             ConfirmBtn.Text = ""
             ConfirmBtn.TextColor3 = Color3.fromRGB(0, 0, 0)
             ConfirmBtn.TextSize = 14.000
@@ -995,7 +995,7 @@ function lib:Window(text, preset, closebind)
             ConfirmBtnTitle.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
             ConfirmBtnTitle.BackgroundTransparency = 1.000
             ConfirmBtnTitle.Size = UDim2.new(0, 33, 0, 32)
-            ConfirmBtnTitle.Font = Enum.Font.Gotham
+            ConfirmBtnTitle.Font = Enum.Font.Jura
             ConfirmBtnTitle.Text = "Confirm"
             ConfirmBtnTitle.TextColor3 = Color3.fromRGB(255, 255, 255)
             ConfirmBtnTitle.TextSize = 14.000
@@ -1006,7 +1006,7 @@ function lib:Window(text, preset, closebind)
             ColorpickerBtn.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
             ColorpickerBtn.BackgroundTransparency = 1.000
             ColorpickerBtn.Size = UDim2.new(0, 363, 0, 42)
-            ColorpickerBtn.Font = Enum.Font.SourceSans
+            ColorpickerBtn.Font = Enum.Font.Jura
             ColorpickerBtn.Text = ""
             ColorpickerBtn.TextColor3 = Color3.fromRGB(0, 0, 0)
             ColorpickerBtn.TextSize = 14.000
@@ -1017,7 +1017,7 @@ function lib:Window(text, preset, closebind)
             RainbowToggle.Position = UDim2.new(1.26349044, 0, 2.12684202, 0)
             RainbowToggle.Size = UDim2.new(0, 104, 0, 32)
             RainbowToggle.AutoButtonColor = false
-            RainbowToggle.Font = Enum.Font.SourceSans
+            RainbowToggle.Font = Enum.Font.Jura
             RainbowToggle.Text = ""
             RainbowToggle.TextColor3 = Color3.fromRGB(0, 0, 0)
             RainbowToggle.TextSize = 14.000
@@ -1031,7 +1031,7 @@ function lib:Window(text, preset, closebind)
             RainbowToggleTitle.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
             RainbowToggleTitle.BackgroundTransparency = 1.000
             RainbowToggleTitle.Size = UDim2.new(0, 33, 0, 32)
-            RainbowToggleTitle.Font = Enum.Font.Gotham
+            RainbowToggleTitle.Font = Enum.Font.Jura
             RainbowToggleTitle.Text = "Rainbow"
             RainbowToggleTitle.TextColor3 = Color3.fromRGB(255, 255, 255)
             RainbowToggleTitle.TextSize = 14.000
@@ -1363,7 +1363,7 @@ function lib:Window(text, preset, closebind)
             Label.BackgroundColor3 = Color3.fromRGB(34, 34, 34)
             Label.Size = UDim2.new(0, 363, 0, 42)
             Label.AutoButtonColor = false
-            Label.Font = Enum.Font.SourceSans
+            Label.Font = Enum.Font.Jura
             Label.Text = ""
             Label.TextColor3 = Color3.fromRGB(0, 0, 0)
             Label.TextSize = 14.000
@@ -1378,7 +1378,7 @@ function lib:Window(text, preset, closebind)
             LabelTitle.BackgroundTransparency = 1.000
             LabelTitle.Position = UDim2.new(0.0358126722, 0, 0, 0)
             LabelTitle.Size = UDim2.new(0, 187, 0, 42)
-            LabelTitle.Font = Enum.Font.Gotham
+            LabelTitle.Font = Enum.Font.Jura
             LabelTitle.Text = text
             LabelTitle.TextColor3 = Color3.fromRGB(255, 255, 255)
             LabelTitle.TextSize = 14.000
@@ -1411,7 +1411,7 @@ function lib:Window(text, preset, closebind)
             TextboxTitle.BackgroundTransparency = 1.000
             TextboxTitle.Position = UDim2.new(0.0358126722, 0, 0, 0)
             TextboxTitle.Size = UDim2.new(0, 187, 0, 42)
-            TextboxTitle.Font = Enum.Font.Gotham
+            TextboxTitle.Font = Enum.Font.Jura
             TextboxTitle.Text = text
             TextboxTitle.TextColor3 = Color3.fromRGB(255, 255, 255)
             TextboxTitle.TextSize = 14.000
@@ -1463,7 +1463,7 @@ function lib:Window(text, preset, closebind)
             Bind.BackgroundColor3 = Color3.fromRGB(34, 34, 34)
             Bind.Size = UDim2.new(0, 363, 0, 42)
             Bind.AutoButtonColor = false
-            Bind.Font = Enum.Font.SourceSans
+            Bind.Font = Enum.Font.Jura
             Bind.Text = ""
             Bind.TextColor3 = Color3.fromRGB(0, 0, 0)
             Bind.TextSize = 14.000
@@ -1478,7 +1478,7 @@ function lib:Window(text, preset, closebind)
             BindTitle.BackgroundTransparency = 1.000
             BindTitle.Position = UDim2.new(0.0358126722, 0, 0, 0)
             BindTitle.Size = UDim2.new(0, 187, 0, 42)
-            BindTitle.Font = Enum.Font.Gotham
+            BindTitle.Font = Enum.Font.Jura
             BindTitle.Text = text
             BindTitle.TextColor3 = Color3.fromRGB(255, 255, 255)
             BindTitle.TextSize = 14.000
@@ -1490,7 +1490,7 @@ function lib:Window(text, preset, closebind)
             BindText.BackgroundTransparency = 1.000
             BindText.Position = UDim2.new(0.0358126722, 0, 0, 0)
             BindText.Size = UDim2.new(0, 337, 0, 42)
-            BindText.Font = Enum.Font.Gotham
+            BindText.Font = Enum.Font.GJura
             BindText.Text = Key
             BindText.TextColor3 = Color3.fromRGB(255, 255, 255)
             BindText.TextSize = 14.000
